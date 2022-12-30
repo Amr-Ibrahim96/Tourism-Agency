@@ -39,7 +39,7 @@ if (backGroundOption === true) {
   function randomBackGround() {
     backGroundInterval = setInterval(() => {
       randomNum = Math.floor(Math.random() * imgsArray.length);
-      landingPage.style.backgroundImage = `url("../imgs/${imgsArray[randomNum]}")`;
+      landingPage.style.backgroundImage = `url("./imgs/${imgsArray[randomNum]}")`;
     }, 5000);
   }
 }
