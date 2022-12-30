@@ -409,9 +409,9 @@ header .liClose {
     top: 0;
 }
 .special-feature .feature-text {
-    transition: 1s;
+    transition: 0.5s;
     position: relative;
-    left: -5000px;
+    left: -3000px;
     z-index: 1;
 }   
 .special-feature .feature-text h3 {
@@ -431,7 +431,7 @@ header .liClose {
     transition: 1s;
     position: relative;
     flex-basis: 50%;
-    right: -5000px;
+    right: 0;
     z-index: 1;
     width: 50%;
     height: 100%;

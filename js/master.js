@@ -93,7 +93,7 @@ window.addEventListener("scroll", () => {
 
   if (windowScroll > featuresOffsetTop + featuresOffsetHeight - windowHeight) {
     document.querySelector(".feature-text").style.left = "0px";
-    document.querySelector(".learn-more").style.right = "0px";
+
   }
 });
 
